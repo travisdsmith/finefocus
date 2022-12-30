@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Fine Focus</title>
+
+        <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom Styles -->
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- IE Fonts -->
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="styles/iefonts.css">
+        <![endif]-->
+
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid fixed-width">
+            <div class="row header">
+                <div class="col-xs-12 col-sm-3">
+                    <a href="/">
+                        <img class="img-responsive hidden-xs" style="margin: 0 auto;" src="assets/main.png" alt="Logo">
+                        <img height="150" width="150" class="img-responsive visible-xs" style="margin: 0 auto;" src="assets/main.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-9 navigation">
+                    <span style="white-space:nowrap"><a class="no_decoration" href="submissions">Submissions</a> &bull;</span>
+                    <span style="white-space:nowrap"><a class="no_decoration" href="experts">Experts</a> &bull;</span>
+                    <span style="white-space:nowrap"><a class="no_decoration" href="donate">Donate</a> &bull;</span>
+                    <span style="white-space:nowrap"><a class="no_decoration" href="meet_us">Meet Us</a> &bull;</span>
+                    <span style="white-space:nowrap"><a class="no_decoration" href="faq">FAQs</a></span>
+                    <br/>
+                    <a href="https://www.facebook.com/finefocusjournal" target="_blank"><img src="assets/FB_button.jpg" alt="Facebook"/></a>
+                    <a href="https://twitter.com/focusjournal" target="_blank"><img src="assets/Twitter_button.jpg" alt="Twitter"/></a>
+                    <a href="http://finefocussubmissions.org/" target="_blank"><img src="assets/Website_button.jpg" alt="Website"/></a>
+                    <a href="mailto:finefocus@bsu.edu"><img src="assets/Email_button.jpg" alt="E-Mail"/></a>
+                    <a href="journals.php"><img src="assets/Request.jpg" alt="Request a Journal"/></a>
+                </div>
+            </div>
+            <br/>
+        </div>
+
+        <div class="container-fluid fixed-width">
+            <div class="row">
+                <div class="col-xs-12 col-md-3"></div><div class="col-xs-12 col-md-9">
+                    <h1>Not Found</h1>
+                    <p style="font-weight:bold;">This page could not be found.</p>
+                    <p>
+                        We recently did a complete redesign of our website and some links may not work as expected.
+                        Use the navigation bar above to go to the correct page. Remember to update your bookmarks.
+                        <br/><br/>
+                        <a href="/">Click Here</a> to go back to the home page.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <br/>
+            <div class="row" style="background-color: rgb(168, 169, 173);">
+                <div class="fixed-width" style="margin-left: auto;margin-right: auto;">
+                    <div class="col-xs-12 col-sm-4 footer_contact">
+                        <br/>
+                        Advisor Dr. John McKillip<br/>
+                        Ball State University<br/>
+                        call: +1-765-285-8820<br/>
+                        email: <a class="no_decoration" href="mailto:finefocus@bsu.edu">finefocus@bsu.edu</a><br/>
+                        <span style="font-style: italic">Fine Focus</span> is an immersive learning class.<br/><br/>
+                        Copyright &copy; <?= date("Y") ?> <span style="font-style: italic">Fine Focus</span>. All rights reserved.<br/>
+                        <br/>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 footer_text">
+                        <br/>
+                        <span style="font-family: 'Champagne & Limousines'; font-size: 20px;">OUR SCOPE</span>
+                        <br/>
+                        We publish original research by undergraduate students in microbiology.
+                        This includes works in all microbiological specialties and microbiology education.
+                        <br/>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 footer_text">
+                        <br/>
+                        <span style="font-family: 'Champagne & Limousines'; font-size: 20px;">OUR MISSION</span>
+                        <br/>
+                        We are a web and print journal dedicated to showcasing the research of undergraduate students,
+                        internationally, in all fields of  microbiology.
+                        <span style="font-style: italic">Fine Focus</span> is managed entirely by undergraduate students from production to print.
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
