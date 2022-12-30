@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond ${LeechProtect:/home/travbffa/subdomains/finefocus:%{REMOTE_USER}:%{REMOTE_ADDR}:4:VkUi5C62i65qbKOLAEDoWtPwa4g5LEAo} leech
+RewriteRule .* http://demos-finefocus.travisdsmith.com/403.shtml
+RewriteRule ^/?([-a-zA-Z0-9_+]+)$ index.php?&id=$1 [NC]
